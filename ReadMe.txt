@@ -11,10 +11,10 @@ The "business case" is to manage a list of persons. As service should provide th
 
 The example consists of four projects:
 
-- model: Person class and PersonService interface
-- server: Service implementation and logic to publish the service using SOAP
-- proxy: Accesses the SOAP service and publishes it as an OSGi service
-- webui: Provides a simple servlet based web ui to list and add persons. Uses the OSGi service
+- person-service-ws-soap: Person class and PersonService interface
+- person-service-ws-soap-cxf-impl: Service implementation and logic to publish the service using SOAP
+- person-service-proxy-soap-client: Accesses the SOAP service and publishes it as an OSGi service
+- person-service-proxy-webui: Provides a simple servlet based web ui to list and add persons. Uses the OSGi service
 
 Some remarks
 ------------
