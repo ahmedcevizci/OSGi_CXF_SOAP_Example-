@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:person xmlns:ns1="http://person.osgi.example.alaz.info">
+    <id>1001</id>
+    <name>Ahmed M. Cevizci</name>
+    <url>http://www.alaz.info</url>
+</ns1:person>
